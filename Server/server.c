@@ -4,11 +4,44 @@
 #include <stdlib.h>
 #include <winsock2.h>
 #include "../Util/constants.c"
+
 //#include "../Util/socketList.c"
 
 struct sockaddr_in socketTCPAddress;
 SOCKET socketTCP;
-//SOCKET *clients[MAX_CONNECTIONS] = malloc(sizeof(SOCKET) * MAX_CONNECTIONS); 
+
+void sendResponse(SOCKET client, char *response){
+	send(client , response , strlen(response) , 0);
+}
+
+char* createResponse(char *petition){
+	char* response = "{'response' : 'Hello Client'}";
+	char  response_len[10];
+	sprintf(response_len, "%d", strlen(response));
+
+	// Building the JSON response
+	char *message = malloc (sizeof (char) * RESPONSE_LEN);
+	strcat(message, "HTTP/1.1 200 OK\r\n");
+	strcat(message, "Content-Type: application/json\r\n");
+	strcat(message, "Content-Length: ");
+	strcat(message, response_len);
+	strcat(message, "\r\n\r\n");
+	strcat(message, response);
+
+	return message;
+}
+
+void receiveRequest(SOCKET client, char *petition){
+	petition[strlen(petition)-1] = '\0';
+	char *HTTP_REQUEST = strtok(petition, "\n");
+	printf(HTTP_REQUEST);
+	printf("\n");
+
+	// Creating the response
+	char *response = createResponse(HTTP_REQUEST);
+	// Sending the response
+	sendResponse(client, response);
+}
 
 void initSocket(){
 	// Starting SOCKETS API
@@ -29,10 +62,10 @@ void bindSocket(){
 	if( bind(socketTCP ,(struct sockaddr *)&socketTCPAddress , sizeof(socketTCPAddress)) == SOCKET_ERROR) {
 		exit(EXIT_FAILURE);
 	}
-} 
+}
 
 void listenSocket(){
-	char client_petition[1000];
+	char client_petition[PETITION_LEN];
 	int recv_size, c;
 	SOCKET new_socket;
 	struct sockaddr_in server , client;
@@ -48,43 +81,13 @@ void listenSocket(){
 	//Listen to incoming connections
 	listen(socketTCP , MAX_CONNECTIONS);
 
-
 	while(1) {
 		// Looking for new connections
 		if((new_socket = accept(socketTCP , (struct sockaddr *)&client, &c)) != INVALID_SOCKET ) {
-			/*
-			if(clients == NULL) {
-				// First client
-				clients = initSocketList(new_socket);
-			} else {
-				// More clients
-				appendSocket(clients, new_socket);
-			}
-
-			printSocketList(clients);
-			*/
-			
-			
-
-			if ((recv_size = recv(new_socket , client_petition , 1000 , 0)) != SOCKET_ERROR){
-				client_petition[recv_size] = '\0';
-				char *petition = strtok(client_petition, "\n");
-				printf(petition);
-				printf("\n");
-
-				//Reply to the client
-				//char* message = "{'response' : 'Hello Client'}";
-				char* message = "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\n\r\n{'response' : 'Hello Client'}";
-				printf("%d", send(new_socket , message , strlen(message) , 0));
+			if ((recv_size = recv(new_socket , client_petition , PETITION_LEN , 0)) != SOCKET_ERROR){
+				receiveRequest(new_socket, client_petition);
 			}
 		}
-
-		/*
-		// Receiving petitions
-		if ((recv_size = recv(socketTCP , client_petition , 1000 , 0)) != SOCKET_ERROR){
-			client_petition[recv_size] = '\0';
-			printf(client_petition);
-		}*/
 	}
 
 	closesocket(socketTCP);
