@@ -7,14 +7,13 @@ struct SocketNode {
     struct SocketNode *next;
 };
 
-struct SocketNode* clients;
+struct SocketNode* clients = NULL;
 
 // Append Socket to the list
 void appendSocket(struct SocketNode* listHead, SOCKET *newSocket) {
     // Creating new node
     struct SocketNode* newSocketNode = (struct SocketNode*)malloc(sizeof(struct SocketNode));;
     newSocketNode->socket = *newSocket;
-
 
     newSocketNode->next = listHead;
     listHead = newSocketNode;
