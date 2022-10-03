@@ -4,11 +4,11 @@
 #include <stdlib.h>
 #include <winsock2.h>
 #include "../Util/constants.c"
-#include "../Util/socketList.c"
+//#include "../Util/socketList.c"
 
 struct sockaddr_in socketTCPAddress;
 SOCKET socketTCP;
-struct SocketNode* clients; 
+//SOCKET *clients[MAX_CONNECTIONS] = malloc(sizeof(SOCKET) * MAX_CONNECTIONS); 
 
 void initSocket(){
 	// Starting SOCKETS API
@@ -36,18 +36,23 @@ void listenSocket(){
 	int recv_size, c;
 	SOCKET new_socket;
 	struct sockaddr_in server , client;
-	char *message;
-	
+
 	c = sizeof(struct sockaddr_in);
 
+	printf("Listening for new connections in ");
+	printf(PROXY_IP);
+	printf(":");
+	printf("%d", PORT);
+	printf("\n");
+
 	//Listen to incoming connections
-	listen(socketTCP , 3);
+	listen(socketTCP , MAX_CONNECTIONS);
 
 
 	while(1) {
-
 		// Looking for new connections
 		if((new_socket = accept(socketTCP , (struct sockaddr *)&client, &c)) != INVALID_SOCKET ) {
+			/*
 			if(clients == NULL) {
 				// First client
 				clients = initSocketList(new_socket);
@@ -57,30 +62,33 @@ void listenSocket(){
 			}
 
 			printSocketList(clients);
+			*/
 			
-			//Reply to the client
-			message = "Hello Client , I have received your connection. But I have to go now, bye\n";
-			send(new_socket , message , strlen(message) , 0);
+			
+
+			if ((recv_size = recv(new_socket , client_petition , 1000 , 0)) != SOCKET_ERROR){
+				client_petition[recv_size] = '\0';
+				char *petition = strtok(client_petition, "\n");
+				printf(petition);
+				printf("\n");
+
+				//Reply to the client
+				//char* message = "{'response' : 'Hello Client'}";
+				char* message = "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\n\r\n{'response' : 'Hello Client'}";
+				printf("%d", send(new_socket , message , strlen(message) , 0));
+			}
 		}
 
+		/*
 		// Receiving petitions
 		if ((recv_size = recv(socketTCP , client_petition , 1000 , 0)) != SOCKET_ERROR){
 			client_petition[recv_size] = '\0';
 			printf(client_petition);
-		}
-	}
-	
-	
-	if (new_socket == INVALID_SOCKET)
-	{
-		printf("accept failed with error code : %d" , WSAGetLastError());
-		return 1;
+		}*/
 	}
 
 	closesocket(socketTCP);
 	WSACleanup();
-	
-    
 }
 
 int main(int argc, char *argv[]) {
