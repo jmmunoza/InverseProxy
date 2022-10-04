@@ -32,15 +32,57 @@ char* createResponse(char *petition){
 }
 
 void receiveRequest(SOCKET client, char *petition){
-	petition[strlen(petition)-1] = '\0';
-	char *HTTP_REQUEST = strtok(petition, "\n");
-	printf(HTTP_REQUEST);
-	printf("\n");
+	//petition[strlen(petition)-1] = '\0';
+	//char *HTTP_REQUEST = strtok(petition, "\n");
+	//printf(HTTP_REQUEST);
+
+	// --------------------------------------------------------------------
+	// Connect to WEBAPP
+	SOCKET serverSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+	struct sockaddr_in serverAddress;
+    serverAddress.sin_family      = AF_INET;
+    serverAddress.sin_port        = htons(SERVER_1_PORT);
+    serverAddress.sin_addr.s_addr = inet_addr(SERVER_1_IP);
+
+	if (connect(serverSocket , (struct sockaddr *)&serverAddress , sizeof(serverAddress)) >= 0) {
+        printf("Connected \n");
+		int sendCode;
+
+		// Sending a message
+		if(sendCode = send(serverSocket , petition , strlen(petition) , 0) >= 0) {
+			int recv_size;
+			char server_reply[RESPONSE_LEN]; 
+			
+			if ((recv_size = recv(serverSocket , server_reply , RESPONSE_LEN, 0)) != SOCKET_ERROR) {
+				server_reply[recv_size] = '\0';
+				printf(server_reply);
+				
+				sendResponse(client, server_reply);
+
+				if ((recv_size = recv(serverSocket , server_reply , RESPONSE_LEN, 0)) != SOCKET_ERROR) {
+					server_reply[recv_size] = '\0';
+				
+					
+					sendResponse(client, server_reply);
+
+					
+				}
+			}
+			
+			closesocket(client);
+			closesocket(serverSocket);
+			
+			printf("-------&&&&&&&&&&&&&&&---");
+			printf("\n");
+		}
+    } 
+
+	// --------------------------------------------------------------------
 
 	// Creating the response
-	char *response = createResponse(HTTP_REQUEST);
+	//char *response = createResponse(HTTP_REQUEST);
 	// Sending the response
-	sendResponse(client, response);
+	//sendResponse(client, response);
 }
 
 void initSocket(){
