@@ -11,6 +11,11 @@
 struct sockaddr_in socketProxyAddress;
 SOCKET socketProxy;
 
+int indexOf(char *string, char *e){
+	char *a = strstr(string, e);
+	return (int)(a - string);
+}
+
 void sendResponse(SOCKET client, char *response){
 	send(client , response , strlen(response) , 0);
 }
@@ -24,10 +29,22 @@ void receiveRequest(SOCKET client, char *petition){
     serverAddress.sin_port        = htons(SERVER_1_PORT);
     serverAddress.sin_addr.s_addr = inet_addr(SERVER_1_IP);
 
+
+    // ---- RECORTANDO LOS HEADERS PARA EVITAR ERROR ----
+	int cut = indexOf(petition, "\r\n\r\n");
+	//printf("%s", petition);
+
+	char subbuff[cut];
+	memcpy(subbuff, &petition[0], cut);
+
+	
+	strcat(subbuff, "\r\n\r\n");
+	// ---- RECORTANDO LOS HEADERS PARA EVITAR ERROR ----
+
 	if (connect(serverSocket , (struct sockaddr *)&serverAddress , sizeof(serverAddress)) >= 0) {
        
 		// Sending a message
-		if(send(serverSocket , petition , strlen(petition) , 0) >= 0) {
+		if(send(serverSocket , subbuff , strlen(subbuff) , 0) >= 0) {
 			char server_reply[RESPONSE_LEN]; 
 			int recv_size;
 
@@ -38,6 +55,7 @@ void receiveRequest(SOCKET client, char *petition){
 				
 				if ((recv_size = recv(serverSocket , server_reply , RESPONSE_LEN, 0)) != SOCKET_ERROR) {
 					server_reply[recv_size] = '\0';
+
 					sendResponse(client, server_reply);
 				}
 			}
@@ -74,11 +92,6 @@ void bindSocketProxy(){
 	}
 }
 
-int indexOf(char *string, char e){
-	char *a = strchr(string, e);
-	return (int)(a - string);
-}
-
 void listenSocketProxy(){
 	SOCKET newClient;
 	struct sockaddr_in newClientAddress;
@@ -90,7 +103,7 @@ void listenSocketProxy(){
 	
 
 
-
+	/*
 
 	FILE    *textfile;
     char    line[1000];
@@ -108,7 +121,7 @@ void listenSocketProxy(){
     }
      
     fclose(textfile);
-
+*/
 
 
 
