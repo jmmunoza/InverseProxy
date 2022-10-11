@@ -1,0 +1,1834 @@
+Tue Oct 11 11:00:14 2022
+Date: Tue, 11 Oct 2022 16:00:14 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:00:32 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:00:32 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:00:32 2022
+Date: Tue, 11 Oct 2022 16:00:32 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:00:35 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:00:35 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:00:35 2022
+Date: Tue, 11 Oct 2022 16:00:35 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:00:35 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:00:35 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:00:35 2022
+Date: Tue, 11 Oct 2022 16:00:35 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:01:18 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:01:18 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:01:18 2022
+Date: Tue, 11 Oct 2022 16:01:18 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:02:20 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:02:20 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:02:20 2022
+Date: Tue, 11 Oct 2022 16:02:20 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:02:43 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:02:43 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:02:43 2022
+Date: Tue, 11 Oct 2022 16:02:43 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:02:45 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:02:45 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:02:45 2022
+Date: Tue, 11 Oct 2022 16:02:45 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:03:04 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:03:04 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:03:04 2022
+Date: Tue, 11 Oct 2022 16:03:04 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:03:53 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:03:53 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:03:53 2022
+Date: Tue, 11 Oct 2022 16:03:53 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:03:56 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:03:56 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:03:56 2022
+Date: Tue, 11 Oct 2022 16:03:56 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:03:56 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:03:56 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:03:56 2022
+Date: Tue, 11 Oct 2022 16:03:56 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:04:32 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:04:32 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:04:32 2022
+Date: Tue, 11 Oct 2022 16:04:32 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:04:33 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:04:33 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:04:33 2022
+Date: Tue, 11 Oct 2022 16:04:33 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:04:33 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:04:33 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:04:33 2022
+Date: Tue, 11 Oct 2022 16:04:33 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:05:55 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:05:55 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:05:55 2022
+Date: Tue, 11 Oct 2022 16:05:55 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:06:55 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:06:55 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:06:55 2022
+Date: Tue, 11 Oct 2022 16:06:55 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:06:55 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:06:55 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:06:55 2022
+Date: Tue, 11 Oct 2022 16:06:55 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:06:55 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:06:55 2022
+HTTP/1.1 200 OK
+
+Tue Oct 11 11:06:55 2022
+Date: Tue, 11 Oct 2022 16:06:55 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>Tue Oct 11 11:08:07 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+
+
+Tue Oct 11 11:08:07 2022
+HTTP/1.1 200 OK
+
+
+
+Tue Oct 11 11:08:07 2022
+Date: Tue, 11 Oct 2022 16:08:07 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>
+
+Tue Oct 11 11:08:08 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+
+
+Tue Oct 11 11:08:08 2022
+HTTP/1.1 200 OK
+
+
+
+Tue Oct 11 11:08:08 2022
+Date: Tue, 11 Oct 2022 16:08:08 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>
+
+Tue Oct 11 11:08:08 2022
+GET / HTTP/1.1
+
+Host: 127.0.0.1:8080
+
+Connection: keep-alive
+
+Cache-Control: max-age=0
+
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+
+sec-ch-ua-mobile: ?0
+
+sec-ch-ua-platform: "Windows"
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Accept-Language: en-US,en;q=0.9
+
+
+
+
+
+Tue Oct 11 11:08:08 2022
+HTTP/1.1 200 OK
+
+
+
+Tue Oct 11 11:08:08 2022
+Date: Tue, 11 Oct 2022 16:08:08 GMT
+
+Server: WSGIServer/0.2 CPython/3.10.6
+
+Content-Type: text/html; charset=utf-8
+
+X-Frame-Options: DENY
+
+Content-Length: 698
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: same-origin
+
+Cross-Origin-Opener-Policy: same-origin
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>
+
+Tue Oct 11 11:08:08 2022
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+Tue Oct 11 11:08:08 2022
+HTTP/1.1 200 OK
+
+
+Tue Oct 11 11:08:08 2022
+Date: Tue, 11 Oct 2022 16:08:08 GMT
+Server: WSGIServer/0.2 CPython/3.10.6
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Content-Length: 698
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>
+
+Tue Oct 11 11:09:13 2022
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="104", "Opera GX";v="90"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.117
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+
+Tue Oct 11 11:09:13 2022
+HTTP/1.1 200 OK
+
+
+Tue Oct 11 11:09:13 2022
+Date: Tue, 11 Oct 2022 16:09:13 GMT
+Server: WSGIServer/0.2 CPython/3.10.6
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Content-Length: 698
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @font-face {
+                font-family: myFirstFont;
+                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
+
+            }
+              
+            h2 {
+                font-family: myFirstFont;
+                color: darkgreen;
+            }
+        </style>
+    
+    </head>
+    <body>
+        <h2>My First Heading</h2>
+        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
+    </body>
+</html>
+

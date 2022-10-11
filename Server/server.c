@@ -5,8 +5,7 @@
 #include <winsock2.h>
 
 #include "../Util/constants.c"
-
-//#include "../Util/socketList.c"
+#include "log.c"
 
 struct sockaddr_in socketProxyAddress;
 SOCKET socketProxy;
@@ -41,6 +40,9 @@ void receiveRequest(SOCKET client, char *petition){
 	strcat(subbuff, "\r\n\r\n");
 	// ---- RECORTANDO LOS HEADERS PARA EVITAR ERROR ----
 
+	// GUARDANDO EN EL LOG
+	appendLog(subbuff);
+
 	if (connect(serverSocket , (struct sockaddr *)&serverAddress , sizeof(serverAddress)) >= 0) {
        
 		// Sending a message
@@ -50,12 +52,12 @@ void receiveRequest(SOCKET client, char *petition){
 
 			if ((recv_size = recv(serverSocket , server_reply , RESPONSE_LEN, 0)) != SOCKET_ERROR) {
 				server_reply[recv_size] = '\0';
-				printf(server_reply);
+				appendLog(server_reply);
 				sendResponse(client, server_reply);
 				
 				if ((recv_size = recv(serverSocket , server_reply , RESPONSE_LEN, 0)) != SOCKET_ERROR) {
 					server_reply[recv_size] = '\0';
-
+					appendLog(server_reply);
 					sendResponse(client, server_reply);
 				}
 			}
@@ -135,7 +137,7 @@ void listenSocketProxy(){
 			// New client has arrived
 			char client_petition[PETITION_LEN];
 			if (recv(newClient , client_petition , PETITION_LEN , 0) != SOCKET_ERROR) {
-
+	
 				// Receiving client's petition
 				receiveRequest(newClient, client_petition);
 				closesocket(newClient);
@@ -148,6 +150,10 @@ void listenSocketProxy(){
 }
 
 int main(int argc, char *argv[]) {
+	// Creating the log if it doesn't exist
+	createLogFile();
+
+	// Setting the socket
 	initSocketProxy();
 	bindSocketProxy();
 	listenSocketProxy();
