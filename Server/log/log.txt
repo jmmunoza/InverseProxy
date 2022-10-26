@@ -10324,3 +10324,27 @@ Tue Oct 25 19:47:13 2022
 HTTP/1.1 200 OK
 Tue Oct 25 19:47:13 2022
 Date: Wed, 26 Oct 2022 00:47:13 GMT
+Tue Oct 25 21:18:15 2022
+GET / HTTP/1.1
+Tue Oct 25 21:18:15 2022
+HTTP/1.1 400 Bad Request
+Tue Oct 25 21:18:15 2022
+Date: Wed, 26 Oct 2022 02:18:15 GMT
+Tue Oct 25 21:18:15 2022
+GET /favicon.ico HTTP/1.1
+Tue Oct 25 21:18:16 2022
+HTTP/1.1 400 Bad Request
+Tue Oct 25 21:18:16 2022
+Date: Wed, 26 Oct 2022 02:18:16 GMT
+Tue Oct 25 21:18:33 2022
+GET / HTTP/1.1
+Tue Oct 25 21:18:33 2022
+HTTP/1.1 400 Bad Request
+Tue Oct 25 21:18:33 2022
+Date: Wed, 26 Oct 2022 02:18:33 GMT
+Tue Oct 25 21:18:33 2022
+GET /favicon.ico HTTP/1.1
+Tue Oct 25 21:18:33 2022
+HTTP/1.1 400 Bad Request
+Tue Oct 25 21:18:33 2022
+Date: Wed, 26 Oct 2022 02:18:33 GMT
