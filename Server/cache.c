@@ -54,19 +54,25 @@ char *rmstr (char *str, const char *chars) {
     return str;    
 }
 
-void createFileName(char* petition, char* fileName){
+char *createFileName(char* petition){
+    char* cacheFolder = "Server/cache/";
 
-    // Cutting Petition until HTTP
-    char* pos = strstr(petition, "HTTP");
-    char petitionHead[2000];
-    memcpy(petitionHead, petition, pos-petition);  
-    
+    // Cutting Petition
+    char * petitionHead;
+    petitionHead = strtok(petition, "\r");
+
     // Deleting spaces, / and .
-    rmstr(petitionHead, " /.");
+    rmstr(petitionHead, " ");
+    rmstr(petitionHead, "/");
+    rmstr(petitionHead, ".");
 
     // Creating filename
-    strcpy(fileName, "Server/cache/");
+    char* fileName;
+    fileName = malloc(strlen(cacheFolder)+1+strlen(petitionHead));
+    strcpy(fileName, cacheFolder); 
     strcat(fileName, petitionHead);
+
+    return fileName;
 }
 
 char *sgets(char *s, int n, const char **strp){
@@ -89,8 +95,7 @@ char *sgets(char *s, int n, const char **strp){
 
 void saveResponse(char *petition, char *response){
 
-    char *fileName;
-    createFileName(petition, fileName);
+    char *fileName = createFileName(petition);
     
     if (access(fileName, F_OK) != 0) {
         // file doesn't exist
@@ -118,15 +123,13 @@ void saveResponse(char *petition, char *response){
 }
 
 char *getResponse(char *petition){
-
-    char *fileName;
-    createFileName(petition, fileName);
-
+    char *fileName = createFileName(petition);
+    
     if (access(fileName, F_OK) == 0) {
        return readFile(fileName);
     } else {
-       return "\r\n\r\n<h1>There is an error</h1>";
-    }       
+       return "\r\n\r\n<h1>There is an error</h1>\n";
+    }      
 }
 
 void clearCache(){

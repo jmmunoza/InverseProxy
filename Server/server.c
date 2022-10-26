@@ -66,13 +66,14 @@ void receiveRequest(SOCKET client, char *petition){
 		}
 	} else {
 		// Response is in cache
-		char *responseInCache = getResponse(petition); // HAY ALGO RARO AQUI QUE CIERRA LA APP
+		char *responseInCache = getResponse(petition);
+		sendResponse(client, "HTTP/1.1 200 OK\t\n");
+		appendLog("HTTP/1.1 200 OK\t\n");
+		sendResponse(client, responseInCache);
 		appendLog(responseInCache);
-		sendResponse(client, "HTTP/1.1 200 OK");
-		sendResponse(client, "");
 	}
 	
-	//checkCacheTimeout();
+	checkCacheTimeout();
 	serverInUse += 1;
 }
 
@@ -163,7 +164,7 @@ int main(int argc, char *argv[]) {
 	createLogFile();
 
 	// Creating the cache if it doesn't exist
-	//clearCache(); -----------------------------------------------------------------------------
+	clearCache();
 
 	// Setting the socket
 	initSocketProxy();

@@ -9,3 +9,13 @@
 66.13.0.1   // Direccion del server n
 8080        // Puerto del server n
             // Siempre dejar un espacio al final
+
+
+127.0.0.1
+8080
+3.89.186.200
+8080
+44.212.42.59
+8080
+3.88.227.165
+8080
