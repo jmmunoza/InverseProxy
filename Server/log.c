@@ -19,17 +19,23 @@ void createLogFile(){
     fclose(logFile);
 }
 
-void appendLog(const char *log){
+void appendLog(char *log){
+
+    // Copying log to logcpy
+    char *logcpy = malloc(strlen(log));
+    memcpy(logcpy, log, strlen(log));
+    strtok(logcpy, "\t\n");
+
+    // Writing in log.txt
     logFile = fopen ("Server/log/log.txt", "a");
     char *currentTime = getCurrentTime();
     fprintf(logFile, currentTime);
-    fprintf(logFile, log);
-    fprintf(logFile,"\n");
+    fprintf(logFile, logcpy, "\n");
     fprintf(logFile,"\n");
     fclose(logFile);
 
+    // Printing
     printf(currentTime);
-    printf(log);
-    printf("\n");
+    printf(logcpy, "\n");
     printf("\n");
 }
