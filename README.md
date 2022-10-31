@@ -37,7 +37,7 @@ Este componente también es sencillo, para configurar las IPs y puertos del prox
 124.1.21.1  // Direccion del server 3
 8080        // Puerto del server 3
 66.13.0.1   // Direccion del server n
-8080        // Puerto del server n
+8080        // Puerto del server n\n
             // Siempre dejar un espacio al final
             
 Como se puede ver, el primer puerto y dirección son los correspondientes al servidor proxy, el resto de valores corresponden a los servidores en donde está alojado el servicio Web. Siempre hay que dejar un espacio en blanco al final para que el archivo sea leido correctamente por el reader.
