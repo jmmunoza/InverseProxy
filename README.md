@@ -27,7 +27,8 @@ Por ejemplo, si mi petición era "GET / HTTP/ 1.1", creaba un archivo con el nom
 ### d. Archivo de configuración
 
 Este componente también es sencillo, para configurar las IPs y puertos del proxy hay que hacer uso de un archivo de configuración con la siguiente sintaxis:
-´´´
+
+```
 127.0.0.1   // Direccion del proxy (Siempre sera la primera direccion en la lista)
 8080        // Puerto del proxy
 127.0.0.1   // Direccion del server 1
@@ -39,7 +40,10 @@ Este componente también es sencillo, para configurar las IPs y puertos del prox
 66.13.0.1   // Direccion del server n
 8080        // Puerto del server n\n
             // Siempre dejar un espacio al final
-´´´        
+```
+
+
+            
 Como se puede ver, el primer puerto y dirección son los correspondientes al servidor proxy, el resto de valores corresponden a los servidores en donde está alojado el servicio Web. Siempre hay que dejar un espacio en blanco al final para que el archivo sea leido correctamente por el reader.
 
 ### e. Round Robin
