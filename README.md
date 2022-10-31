@@ -40,8 +40,25 @@ Este componente también es sencillo, para configurar las IPs y puertos del prox
 8080        // Puerto del server n
             // Siempre dejar un espacio al final
             
-Como se puede ver, el primer puerto y dirección son los correspondientes al servidor proxy, el resto de valores corresponden a los servidores en donde está alojado el servicio Web.
+Como se puede ver, el primer puerto y dirección son los correspondientes al servidor proxy, el resto de valores corresponden a los servidores en donde está alojado el servicio Web. Siempre hay que dejar un espacio en blanco al final para que el archivo sea leido correctamente por el reader.
+
+### e. Round Robin
+
+Para realizar esta rotación, se toman las IPs y puertos en una lista y se comienzan a rotar con un contador a medida que entran peticiones. Con cada rotacion, se crea un socket hacie el Web server correspondiente, se recibe, se envía al cliente y se cierra el socket y continua el proceso.
+
+### f. Despliegue
+
+Con el proxy listo, es tiempo para crear un servicio Web. Mediante el uso de Django y python creé una página web sencilla para probar que todo funcionara, la instalé en cada una de las máquinas virtuales de AWS, configuré sus IPs, tanto privadas como públicas, y el servicio estaba listo para correr. Por el lado del proxy, como se trataba de una app hecha en Windows, requerí hacer el proces en una máquina virtual de Windows, pero el proceso es el mismo. Se configuran los puertos y direcciones y queda todo desplegado.
 
 ## 3. Conclusiones
 
+- El uso de C puede variar drásticamente entre sistemas operativos.
+- Siempre que quieras conectar tu Web App para recibir peticiones, deberá funcionar en la IP privada que te brinde AWS para que se pueda conectar con la IP pública. 
+- Hay algunos problemas en C con ciertos responses ya que se pierden caracteres, he llegado a la conclusión de que se trata de algo referente al codificado UTF-8, pero no fuí capaz de solucionarlo.
+- Con esta práctica fortalecí todo lo visto en clase, como el manejo de IPs privadas y públicas, la programación en red, y el despligue de servicios Web. Algo que me emociona mucho.  
+- El balanceador de carga es una herramienta poderosa para evitar el colapso de las aplicaciones, algo que no conocía y que he profundizado con esta práctica.
+- El proceso LOG es sumamente importante ya que me permitió identificar errores de una manera más facil.
+
 ## 4. Referencias
+
+- https://learn.microsoft.com/en-us/windows/win32/api/winsock2/
