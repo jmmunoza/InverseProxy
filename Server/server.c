@@ -133,14 +133,13 @@ void bindSocketProxy(){
 }
 
 void listenSocketProxy(){
-	SOCKET newClient;
-	struct sockaddr_in newClientAddress;
-	int newClientSize = sizeof(struct sockaddr_in);
-
 	//Listen to incoming connections
 	listen(socketProxy , MAX_CONNECTIONS);
 
 	while(1) {
+		SOCKET newClient;
+		struct sockaddr_in newClientAddress;
+		int newClientSize = sizeof(struct sockaddr_in);
 		// Looking for new connections
 		if((newClient = accept(socketProxy , (struct sockaddr *)&newClientAddress, &newClientSize)) != INVALID_SOCKET ) {
 
