@@ -1,23 +1,472 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <style>
-            @font-face {
-                font-family: myFirstFont;
-                src: url(https://fonts.gstatic.com/s/jetbrainsmono/v13/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tTOlOV.woff2) format('woff2');
-
-            }
+<html style="font-size: 16px;"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="StevePerry">
+    <title>Page</title>
+    <link rel="stylesheet" href="WebApp\WebAppTest\WebAppApp\templates\homestyle.css" media="screen">
+    <script class="u-script" type="text/javascript" src="//capp.nicepage.com/assets/jquery-1.9.1.min.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="//capp.nicepage.com/09f64e95f2b7dd23e09af84a9892f2c706182d31/nicepage.js" defer=""></script>
+<link id="u-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|roboto"><style class="u-style">.u-section-2 .u-sheet-1 {min-height: 744px}
+.u-section-2 .u-layout-wrap-1 {margin: 75px auto 75px 0}
+.u-section-2 .u-layout-cell-1 {min-height: 594px}
+.u-section-2 .u-shape-1 {height: 519px; margin: 0 auto 60px 0}
+.u-section-2 .u-layout-cell-2 {min-height: 594px; background-image: none}
+.u-section-2 .u-line-1 {width: 140px; height: 19px; transform-origin: right center 0; margin: 75px 17px 0 auto}
+.u-section-2 .u-image-1 {height: 429px; margin: 71px auto 0 0}
+.u-section-2 .u-text-1 {line-height: 1; position: relative; margin: -443px 79px 0 -280px}
+.u-section-2 .u-image-2 {background-image: url("//images01.nicepage.com/58/38/5838fe8d2da320954f220f771aec1ee7.jpeg"); min-height: 459px; background-position: 50% 50%}
+.u-section-2 .u-icon-1 {height: 64px; width: 64px; margin: 165px auto 0 120px}
+.u-section-2 .u-icon-2 {height: 64px; width: 64px; margin: 91px 75px 45px auto}
+.u-section-2 .u-layout-cell-4 {min-height: 135px}
+.u-section-2 .u-text-2 {position: relative; margin: 17px 20px 0}
+.u-section-2 .u-text-3 {position: relative; margin: 2px 243px 0 20px}
+.u-section-2 .u-text-4 {font-weight: 700; position: relative; margin: 0 257px 0 20px}
+.u-section-2 .u-line-2 {width: 140px; height: 19px; transform-origin: right center 0; margin: -8px 23px 0 auto} 
+@media (max-width: 1199px){ .u-section-2 .u-layout-wrap-1 {margin-right: initial; margin-left: initial}
+.u-section-2 .u-shape-1 {margin-right: initial; margin-left: initial}
+.u-section-2 .u-line-1 {width: 116px; margin-right: 14px}
+.u-section-2 .u-image-1 {margin-right: initial; margin-left: initial}
+.u-section-2 .u-text-1 {margin-right: 65px; margin-left: -231px}
+.u-section-2 .u-icon-1 {height: 53px; width: 53px; margin-left: 99px}
+.u-section-2 .u-icon-2 {height: 53px; width: 53px; margin-right: 62px}
+.u-section-2 .u-text-2 {margin-left: 16px; margin-right: 16px}
+.u-section-2 .u-text-3 {margin-right: 200px; margin-left: 16px}
+.u-section-2 .u-text-4 {margin-right: 212px; margin-left: 16px}
+.u-section-2 .u-line-2 {width: 116px; margin-right: 19px} }
+@media (max-width: 991px){ .u-section-2 .u-line-1 {width: 167px; margin-right: 9px}
+.u-section-2 .u-image-1 {width: 204px; margin-right: 0; margin-left: auto}
+.u-section-2 .u-text-1 {margin: -441px 213px 185px -229px}
+.u-section-2 .u-icon-1 {height: 40px; width: 40px; margin-left: 76px}
+.u-section-2 .u-icon-2 {height: 40px; width: 40px; margin-right: 47px}
+.u-section-2 .u-text-2 {margin-left: 13px; margin-right: 13px}
+.u-section-2 .u-text-3 {margin-right: 153px; margin-left: 13px}
+.u-section-2 .u-text-4 {margin-right: 162px; margin-left: 13px}
+.u-section-2 .u-line-2 {width: 173px; margin-right: 15px; margin-bottom: 9px} }
+@media (max-width: 767px){ .u-section-2 .u-sheet-1 {min-height: 1218px}
+.u-section-2 .u-layout-wrap-1 {margin-top: 0; margin-bottom: 0; margin-right: initial; margin-left: initial}
+.u-section-2 .u-shape-1 {height: 251px; margin-top: 228px; margin-right: initial; margin-left: initial}
+.u-section-2 .u-line-1 {width: 157px; transform-origin: left center 0; margin-top: 105px; margin-right: auto; margin-left: 21px}
+.u-section-2 .u-image-1 {width: 239px; margin-top: 41px; margin-right: auto; margin-left: 0}
+.u-section-2 .u-text-1 {margin: -470px 17px 214px 125px}
+.u-section-2 .u-icon-1 {height: 38px; width: 38px; margin-left: 57px}
+.u-section-2 .u-icon-2 {height: 38px; width: 38px; margin-right: 36px}
+.u-section-2 .u-text-2 {margin-left: 9px; margin-right: 9px}
+.u-section-2 .u-text-3 {margin-right: 115px; margin-left: 9px}
+.u-section-2 .u-text-4 {margin-right: 122px; margin-left: 9px}
+.u-section-2 .u-line-2 {width: 83px; margin-right: 11px} }
+@media (max-width: 575px){ .u-section-2 .u-line-1 {width: 136px; margin-left: 6px}
+.u-section-2 .u-image-1 {width: 178px}
+.u-section-2 .u-text-1 {font-size: 6rem; margin: -337px 21px 145px 63px}
+.u-section-2 .u-icon-1 {height: 32px; width: 32px; margin-left: 36px}
+.u-section-2 .u-icon-2 {height: 32px; width: 32px; margin-right: 22px}
+.u-section-2 .u-text-2 {margin-left: 6px; margin-right: 6px}
+.u-section-2 .u-text-3 {margin-right: 72px; margin-left: 6px}
+.u-section-2 .u-text-4 {margin-right: 77px; margin-left: 6px}
+.u-section-2 .u-line-2 {width: 70px; margin-right: 7px} }</style><style class="u-style">.u-section-3 {background-image: none}
+.u-section-3 .u-sheet-1 {min-height: 712px}
+.u-section-3 .u-layout-wrap-1 {margin: 157px auto 0 0}
+.u-section-3 .u-image-1 {min-height: 480px; background-image: url("//images01.nicepage.com/43/f2/43f2213d3e8ac682d0f9ca85149a785b.jpeg"); background-position: 50% 50%}
+.u-section-3 .u-layout-cell-2 {min-height: 480px}
+.u-section-3 .u-container-layout-2 {padding-right: 60px}
+.u-section-3 .u-text-1 {font-weight: 700; font-size: 6rem; line-height: 1; margin: 40px 60px 0}
+.u-section-3 .u-image-2 {width: 43px; height: 238px; margin: -315px 70px 0 auto}
+.u-section-3 .u-text-2 {margin: 97px 60px 40px}
+.u-section-3 .u-line-1 {width: 912px; position: relative; margin: 30px 20px 70px auto} 
+@media (max-width: 1199px){ .u-section-3 .u-sheet-1 {min-height: 640px}
+.u-section-3 .u-layout-wrap-1 {margin-right: initial; margin-left: initial}
+.u-section-3 .u-container-layout-2 {padding-right: 49px}
+.u-section-3 .u-text-1 {margin-left: 49px; margin-right: 49px}
+.u-section-3 .u-image-2 {width: 35px; margin-right: 58px}
+.u-section-3 .u-text-2 {margin-left: 49px; margin-right: 49px}
+.u-section-3 .u-line-1 {width: 752px; margin-right: 16px} }
+@media (max-width: 991px){ .u-section-3 .u-container-layout-2 {padding-right: 38px}
+.u-section-3 .u-text-1 {margin-left: 38px; margin-right: 38px}
+.u-section-3 .u-image-2 {width: 27px; margin-right: 44px}
+.u-section-3 .u-text-2 {margin-left: 38px; margin-right: 38px}
+.u-section-3 .u-line-1 {width: 576px; margin-right: 13px} }
+@media (max-width: 767px){ .u-section-3 .u-sheet-1 {min-height: 800px}
+.u-section-3 .u-image-1 {min-height: 330px}
+.u-section-3 .u-layout-cell-2 {min-height: 330px}
+.u-section-3 .u-container-layout-2 {padding-right: 28px}
+.u-section-3 .u-text-1 {margin-left: 28px; margin-right: 28px}
+.u-section-3 .u-image-2 {width: 25px; margin-right: 33px}
+.u-section-3 .u-text-2 {margin-left: 28px; margin-right: 28px}
+.u-section-3 .u-line-1 {width: 531px; margin-right: 9px} }
+@media (max-width: 575px){ .u-section-3 .u-image-1 {min-height: 353px}
+.u-section-3 .u-layout-cell-2 {min-height: 407px}
+.u-section-3 .u-container-layout-2 {padding-right: 18px}
+.u-section-3 .u-text-1 {margin-left: 18px; margin-right: 18px; position: relative}
+.u-section-3 .u-image-2 {width: 21px; margin-right: 21px}
+.u-section-3 .u-text-2 {margin-left: 18px; margin-right: 18px; position: relative}
+.u-section-3 .u-line-1 {width: 334px; margin-right: 6px} }</style><style class="u-style">.u-section-4 .u-sheet-1 {min-height: 287px}
+.u-section-4 .u-group-1 {min-height: 237px; width: 800px; height: auto; margin: 25px auto 0}
+.u-section-4 .u-container-layout-1 {padding-right: 60px}
+.u-section-4 .u-text-1 {font-weight: 700; font-size: 3rem; margin: 23px 60px 0}
+.u-section-4 .u-btn-1 {font-weight: 400; background-image: none; margin: 24px auto 0}
+.u-section-4 .u-line-1 {height: 192px; width: 19px; transform-origin: center top 0; margin: -214px auto 30px 24px} 
+@media (max-width: 1199px){ .u-section-4 .u-group-1 {width: 660px}
+.u-section-4 .u-container-layout-1 {padding-right: 49px}
+.u-section-4 .u-text-1 {margin-left: 49px; margin-right: 49px}
+.u-section-4 .u-line-1 {width: 16px; margin-left: 20px} }
+@media (max-width: 991px){ .u-section-4 .u-group-1 {width: 505px}
+.u-section-4 .u-container-layout-1 {padding-right: 38px}
+.u-section-4 .u-text-1 {margin-left: 38px; margin-right: 38px}
+.u-section-4 .u-line-1 {width: 12px; margin-left: 15px} }
+@media (max-width: 767px){ .u-section-4 .u-group-1 {width: 474px}
+.u-section-4 .u-container-layout-1 {padding-right: 28px}
+.u-section-4 .u-text-1 {margin-left: 28px; margin-right: 28px}
+.u-section-4 .u-line-1 {width: 11px; margin-left: 11px} }
+@media (max-width: 575px){ .u-section-4 .u-group-1 {width: 340px}
+.u-section-4 .u-container-layout-1 {padding-right: 18px}
+.u-section-4 .u-text-1 {margin-left: 18px; margin-right: 18px}
+.u-section-4 .u-line-1 {width: 9px; margin-left: 7px} }</style><style class="u-style">.u-section-5 {background-image: url("//images01.nicepage.com/30/d5/30d5cc5e0c9641b0bf8e69e0bc3e244e.jpeg"); background-position: 50% 50%}
+.u-section-5 .u-sheet-1 {min-height: 546px}
+.u-section-5 .u-image-1 {width: 168px; height: 355px; margin: 73px auto 0 33px}
+.u-section-5 .u-group-1 {width: 800px; min-height: 186px; height: auto; margin: -231px 60px 0 auto}
+.u-section-5 .u-text-1 {font-weight: 700; font-size: 6rem; position: relative; margin: 3px 14px 0 26px}
+.u-section-5 .u-text-2 {font-weight: 700; font-size: 6rem; position: relative; margin: -108px 20px 0}
+.u-section-5 .u-icon-1 {height: 64px; width: 64px; margin: -300px 120px 55px auto} 
+@media (max-width: 1199px){ .u-section-5 .u-sheet-1 {min-height: 400px}
+.u-section-5 .u-image-1 {width: 139px; margin-left: 27px}
+.u-section-5 .u-group-1 {width: 660px; margin-right: 49px}
+.u-section-5 .u-text-1 {margin-right: 11px; margin-left: 22px}
+.u-section-5 .u-text-2 {margin-left: 16px; margin-right: 16px}
+.u-section-5 .u-icon-1 {height: 53px; width: 53px; margin-right: 99px} }
+@media (max-width: 991px){ .u-section-5 .u-image-1 {width: 106px; margin-left: 21px}
+.u-section-5 .u-group-1 {width: 505px; margin-right: 38px}
+.u-section-5 .u-text-1 {margin-right: 9px; margin-left: 17px}
+.u-section-5 .u-text-2 {margin-left: 13px; margin-right: 13px}
+.u-section-5 .u-icon-1 {height: 40px; width: 40px; margin-right: 76px} }
+@media (max-width: 767px){ .u-section-5 .u-image-1 {width: 99px; margin-left: 15px}
+.u-section-5 .u-group-1 {width: 474px; margin-right: 28px}
+.u-section-5 .u-text-1 {margin-right: 6px; margin-left: 12px}
+.u-section-5 .u-text-2 {margin-left: 9px; margin-right: 9px}
+.u-section-5 .u-icon-1 {height: 38px; width: 38px; margin-right: 57px} }
+@media (max-width: 575px){ .u-section-5 .u-image-1 {width: 84px; margin-left: 10px}
+.u-section-5 .u-group-1 {width: 322px; margin-right: 18px}
+.u-section-5 .u-text-1 {margin-right: 4px; margin-left: 8px}
+.u-section-5 .u-text-2 {margin-left: 6px; margin-right: 6px}
+.u-section-5 .u-icon-1 {height: 32px; width: 32px; margin-right: 36px} }</style><style class="u-style">.u-section-6 .u-sheet-1 {min-height: 747px}
+.u-section-6 .u-layout-wrap-1 {margin: 75px auto 75px 0}
+.u-section-6 .u-image-1 {background-image: url("//images01.nicepage.com/05/3a/053a21b014fd305856ceaa906732bb03.jpeg"); min-height: 402px; background-position: 50% 50%}
+.u-section-6 .u-icon-1 {height: 64px; width: 64px; margin: 252px 25px 0 auto}
+.u-section-6 .u-icon-2 {height: 64px; width: 64px; margin: -64px auto 0 33px}
+.u-section-6 .u-layout-cell-2 {min-height: 165px; background-image: none}
+.u-section-6 .u-text-1 {font-weight: 700; font-size: 6rem; line-height: 1; position: relative; margin: -53px 0 0 40px}
+.u-section-6 .u-layout-cell-3 {min-height: 567px; background-image: none}
+.u-section-6 .u-line-1 {width: 140px; height: 19px; transform-origin: right center 0; margin: 75px auto 0}
+.u-section-6 .u-image-2 {height: 342px; width: 140px; margin: 158px 0 0 auto}
+.u-section-6 .u-layout-cell-4 {min-height: 567px}
+.u-section-6 .u-shape-1 {height: 519px; margin: 0 auto 0 0}
+.u-section-6 .u-text-2 {position: relative; margin: -472px 20px 43px} 
+@media (max-width: 1199px){ .u-section-6 .u-layout-wrap-1 {margin-right: initial; margin-left: initial}
+.u-section-6 .u-icon-1 {height: 53px; width: 53px; margin-right: 21px}
+.u-section-6 .u-icon-2 {height: 53px; width: 53px; margin-left: 27px}
+.u-section-6 .u-text-1 {margin-left: 33px}
+.u-section-6 .u-line-1 {width: 115px}
+.u-section-6 .u-image-2 {margin-right: initial; margin-left: initial; width: auto}
+.u-section-6 .u-shape-1 {margin-right: initial; margin-left: initial}
+.u-section-6 .u-text-2 {margin-left: 16px; margin-right: 16px} }
+@media (max-width: 991px){ .u-section-6 .u-icon-1 {height: 40px; width: 40px; margin-right: 16px}
+.u-section-6 .u-icon-2 {height: 40px; width: 40px; margin-left: 21px}
+.u-section-6 .u-text-1 {margin-left: 25px}
+.u-section-6 .u-line-1 {width: 88px}
+.u-section-6 .u-image-2 {width: 88px; margin-right: 0; margin-left: auto}
+.u-section-6 .u-text-2 {margin-left: 13px; margin-right: 13px} }
+@media (max-width: 767px){ .u-section-6 .u-sheet-1 {min-height: 1218px}
+.u-section-6 .u-layout-wrap-1 {margin-top: 0; margin-bottom: 0; margin-right: initial; margin-left: initial}
+.u-section-6 .u-icon-1 {height: 38px; width: 38px; margin-right: 12px}
+.u-section-6 .u-icon-2 {height: 38px; width: 38px; margin-left: 15px}
+.u-section-6 .u-text-1 {margin-left: 19px}
+.u-section-6 .u-line-1 {width: 83px; transform-origin: left center 0}
+.u-section-6 .u-image-2 {width: 83px}
+.u-section-6 .u-shape-1 {height: 251px; margin-top: 228px; margin-right: initial; margin-left: initial}
+.u-section-6 .u-text-2 {margin-left: 9px; margin-right: 9px} }
+@media (max-width: 575px){ .u-section-6 .u-icon-1 {height: 32px; width: 32px; margin-right: 7px}
+.u-section-6 .u-icon-2 {height: 32px; width: 32px; margin-left: 10px}
+.u-section-6 .u-text-1 {margin-left: 12px}
+.u-section-6 .u-line-1 {width: 70px}
+.u-section-6 .u-image-2 {width: 69px}
+.u-section-6 .u-text-2 {margin-left: 6px; margin-right: 6px} }</style><style class="u-style">.u-section-7 {background-image: url("//images01.nicepage.com/88/7f/887f224c809cb12da865abb941bf4ac0.jpeg"); background-position: 50% 50%}
+.u-section-7 .u-sheet-1 {min-height: 830px}
+.u-section-7 .u-group-1 {min-height: 247px; height: auto; margin: 528px auto 0 0}
+.u-section-7 .u-text-1 {font-size: 6rem; font-weight: 700; position: relative; margin: 30px 20px 0}
+.u-section-7 .u-icon-1 {height: 64px; width: 64px; margin: -90px auto 0 75px}
+.u-section-7 .u-text-2 {width: 563px; position: relative; margin: 34px auto 0}
+.u-section-7 .u-line-1 {width: 912px; height: 19px; margin: 20px auto 15px}
+.u-section-7 .u-image-1 {width: 168px; height: 355px; margin: -448px 75px 0 auto} 
+@media (max-width: 1199px){ .u-section-7 .u-sheet-1 {min-height: 400px}
+.u-section-7 .u-group-1 {margin-right: initial; margin-left: initial}
+.u-section-7 .u-text-1 {margin-left: 16px; margin-right: 16px}
+.u-section-7 .u-icon-1 {height: 53px; width: 53px; margin-left: 62px}
+.u-section-7 .u-text-2 {width: 464px}
+.u-section-7 .u-line-1 {width: 752px}
+.u-section-7 .u-image-1 {width: 139px; margin-right: 62px} }
+@media (max-width: 991px){ .u-section-7 .u-text-1 {margin-left: 13px; margin-right: 13px}
+.u-section-7 .u-icon-1 {height: 40px; width: 40px; margin-left: 47px}
+.u-section-7 .u-text-2 {width: 356px}
+.u-section-7 .u-line-1 {width: 576px}
+.u-section-7 .u-image-1 {width: 106px; margin-right: 47px} }
+@media (max-width: 767px){ .u-section-7 .u-text-1 {margin-left: 9px; margin-right: 9px}
+.u-section-7 .u-icon-1 {height: 38px; width: 38px; margin-left: 36px}
+.u-section-7 .u-text-2 {width: 333px}
+.u-section-7 .u-line-1 {width: 540px}
+.u-section-7 .u-image-1 {width: 99px; margin-right: 36px} }
+@media (max-width: 575px){ .u-section-7 .u-text-1 {margin-left: 6px; margin-right: 6px}
+.u-section-7 .u-icon-1 {height: 32px; width: 32px; margin-left: 22px}
+.u-section-7 .u-text-2 {width: 280px}
+.u-section-7 .u-line-1 {width: 340px}
+.u-section-7 .u-image-1 {width: 84px; margin-right: 22px} }</style><script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"url": "https://website14661.nicepage.io/Page-1.html",
+		"logo": "//capp.nicepage.com/a9776843db6c093da462dcd137adb31401875ce8/images/default-logo.png"
+}</script><meta property="og:title" content="Page"><meta property="og:type" content="website"><meta property="og:description" content=""><meta name="theme-color" content="#fb0400"><link rel="canonical" href="https://website14661.nicepage.io/Page-1.html"><meta property="og:url" content="https://website14661.nicepage.io/Page-1.html"></head>
+<body class="u-body">
+<section class="u-clearfix u-section-2" id="sec-6a68"><div class="u-clearfix u-sheet u-sheet-1"><div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1"><div class="u-layout">  <div class="u-layout-row"><div class="u-size-18 u-size-30-md">  <div class="u-layout-row"><div class="u-container-style u-hidden-sm u-hidden-xs u-layout-cell u-left-cell u-size-60 u-layout-cell-1"><div class="u-container-layout"><div class="u-black u-expanded-width u-shape u-shape-rectangle u-shape-1"></div></div></div>  </div></div>
+<div class="u-size-12 u-size-30-md">  <div class="u-layout-row"><div class="u-align-right-sm u-align-right-xs u-black u-container-style u-expand-resize u-layout-cell u-size-60 u-layout-cell-2"><div class="u-container-layout"><div class="u-border-19 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div><img class="u-expanded-width-lg u-expanded-width-xl u-image u-image-1" src="//images01.nicepage.com/77/de/77de63d05c0fd19d161d3d34d0d861d3.png"><h1 class="u-heading-font u-text u-text-palette-1-base u-title u-text-1">Steve<br>Perry</h1></div></div>  </div></div>
+<div class="u-size-30 u-size-60-md">  <div class="u-layout-col"><div class="u-container-style u-image u-layout-cell u-right-cell u-size-30 u-image-2"><div class="u-container-layout"><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 41.999 41.999" style="undefined"><use xlink:href="#svg-7844"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-7844" x="0px" y="0px" viewBox="0 0 41.999 41.999" style="enable-background:new 0 0 41.999 41.999;" xml:space="preserve" class="u-svg-content">
+<path d="M36.068,20.176l-29-20C6.761-0.035,6.363-0.057,6.035,0.114C5.706,0.287,5.5,0.627,5.5,0.999v40  c0,0.372,0.206,0.713,0.535,0.886c0.146,0.076,0.306,0.114,0.465,0.114c0.199,0,0.397-0.06,0.568-0.177l29-20  c0.271-0.187,0.432-0.494,0.432-0.823S36.338,20.363,36.068,20.176z"></path>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></span><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 353.562 353.562" style="undefined"><use xlink:href="#svg-13f9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-13f9" x="0px" y="0px" viewBox="0 0 353.562 353.562" style="enable-background:new 0 0 353.562 353.562;" xml:space="preserve" class="u-svg-content">
+<g>
+	<g>
+		<g>
+			<path d="M41.064,353.562h109.014V0H41.064V353.562z"></path>
+		</g>
+		<g>
+			<path d="M203.482,0v353.562h109.017V0H203.482z"></path>
+		</g>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></span></div></div>
+<div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-4"><div class="u-container-layout"><h4 class="u-text u-text-2">22 December, 2018</h4><h3 class="u-text u-text-3">Your Place</h3><p class="u-text u-text-4">Open doors at 9 pm</p><div class="u-align-left-lg u-align-left-sm u-align-left-xl u-align-left-xs u-border-19 u-border-black u-line u-line-horizontal u-line-2"></div></div></div>  </div></div>  </div></div></div></div></section><section class="u-black u-clearfix u-section-3" id="sec-723c"><div class="u-clearfix u-sheet u-sheet-1">
+    <div class="u-clearfix u-expanded-width u-gutter-20 u-layout-wrap u-layout-wrap-1">
+      <div class="u-layout">
+        <div class="u-layout-row">
+          
+          
+        <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-30 u-image-1">
+            <div class="u-container-layout" src=""></div>
+          </div><div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
+            <div class="u-container-layout u-container-layout-2">
               
-            h2 {
-                font-family: myFirstFont;
-                color: darkgreen;
-            }
-        </style>
-    
-    </head>
-    <body>
-        <h2>My First Heading</h2>
-        <img src="https://ahseeit.com/spanish/king-include/uploads/2021/03/81324695_2501396073431633_4703291999670002950_n-8084680497.jpg" alt="Italian Trulli">
-    </body>
-</html>
+              
+            <h2 class="u-text u-text-1">Steve Perry</h2><img src="//images01.nicepage.com/77/de/77de63d05c0fd19d161d3d34d0d861d3.png" alt="" class="u-image u-image-default u-image-2" data-image-width="168" data-image-height="355"><p class="u-text u-text-2">Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</p></div>
+          </div></div>
+      </div>
+    </div><div class="u-border-19 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div>
+  </div></section><section class="u-clearfix u-section-4" id="sec-f856"><div class="u-clearfix u-sheet u-sheet-1">
+    <div class="u-container-style u-group u-group-1">
+      <div class="u-container-layout u-valign-middle u-container-layout-1">
+        <h2 class="u-align-center u-text u-text-1">Buy Ticket Now</h2>
+        
+        <a href="###" class="u-btn u-button-style u-palette-1-base u-btn-1">Buy Ticket</a>
+      </div>
+    </div><div class="u-border-19 u-border-grey-dark-1 u-line u-line-vertical u-line-1"></div>
+  </div></section><section class="u-clearfix u-image u-section-5" id="sec-c8a8"><div class="u-clearfix u-sheet u-sheet-1"><img src="//images01.nicepage.com/44/70/447080a961b1038e3e43eb0b361534a6.png" alt="" class="u-image u-image-default u-image-1" data-image-width="168" data-image-height="355"><div class="u-container-style u-group u-group-1"><div class="u-container-layout"><h1 class="u-text u-text-body-alt-color u-text-1">Music = Life</h1><h1 class="u-align-left u-text u-text-palette-1-base u-text-2">Music = Life</h1></div></div><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 41.999 41.999" style="undefined"><use xlink:href="#svg-b9a6"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-b9a6" x="0px" y="0px" viewBox="0 0 41.999 41.999" style="enable-background:new 0 0 41.999 41.999;" xml:space="preserve" class="u-svg-content">
+<path d="M36.068,20.176l-29-20C6.761-0.035,6.363-0.057,6.035,0.114C5.706,0.287,5.5,0.627,5.5,0.999v40  c0,0.372,0.206,0.713,0.535,0.886c0.146,0.076,0.306,0.114,0.465,0.114c0.199,0,0.397-0.06,0.568-0.177l29-20  c0.271-0.187,0.432-0.494,0.432-0.823S36.338,20.363,36.068,20.176z"></path>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></span></div></section><section class="u-clearfix u-section-6" id="sec-e15a"><div class="u-clearfix u-sheet u-sheet-1"><div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1"><div class="u-layout">  <div class="u-layout-row">
+  <div class="u-size-30 u-size-60-md">  <div class="u-layout-col"><div class="u-container-style u-image u-layout-cell u-right-cell u-size-30 u-image-1"><div class="u-container-layout"><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 41.999 41.999" style="undefined"><use xlink:href="#svg-aefb"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-aefb" x="0px" y="0px" viewBox="0 0 41.999 41.999" style="enable-background:new 0 0 41.999 41.999;" xml:space="preserve" class="u-svg-content">
+<path d="M36.068,20.176l-29-20C6.761-0.035,6.363-0.057,6.035,0.114C5.706,0.287,5.5,0.627,5.5,0.999v40  c0,0.372,0.206,0.713,0.535,0.886c0.146,0.076,0.306,0.114,0.465,0.114c0.199,0,0.397-0.06,0.568-0.177l29-20  c0.271-0.187,0.432-0.494,0.432-0.823S36.338,20.363,36.068,20.176z"></path>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></span><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 353.562 353.562" style="undefined"><use xlink:href="#svg-ef62"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-ef62" x="0px" y="0px" viewBox="0 0 353.562 353.562" style="enable-background:new 0 0 353.562 353.562;" xml:space="preserve" class="u-svg-content">
+<g>
+	<g>
+		<g>
+			<path d="M41.064,353.562h109.014V0H41.064V353.562z"></path>
+		</g>
+		<g>
+			<path d="M203.482,0v353.562h109.017V0H203.482z"></path>
+		</g>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></span></div></div>
+<div class="u-container-style u-layout-cell u-palette-1-base u-right-cell u-size-30 u-layout-cell-2"><div class="u-container-layout"><h2 class="u-text u-text-1">Your Best Weekend</h2></div></div>  </div></div><div class="u-size-10 u-size-30-md">  <div class="u-layout-row">  <div class="u-align-right-sm u-align-right-xs u-black u-container-style u-expand-resize u-layout-cell u-size-60 u-layout-cell-3"><div class="u-container-layout"><div class="u-border-19 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div><img class="u-expanded-width-lg u-image u-image-2" src="//images01.nicepage.com/77/de/77de63d05c0fd19d161d3d34d0d861d3.png"></div></div></div></div><div class="u-size-20 u-size-30-md">  <div class="u-layout-row">  <div class="u-container-style u-hidden-sm u-hidden-xs u-layout-cell u-left-cell u-size-60 u-layout-cell-4"><div class="u-container-layout"><div class="u-black u-expanded-width u-shape u-shape-rectangle u-shape-1"></div><p class="u-text u-text-body-alt-color u-text-2">The class was called “Music in U.S. Prisons,” a college-level course taught by Ben Harbert, a lanky, blue-eyed associate professor in Georgetown’s music department. Harbert put the course together for the inaugural semester of the university’s&nbsp;<a href="https://prisonsandjustice.georgetown.edu/" target="_blank">Prison Scholars Program</a>, which offers a variety of classes to inmates in the D.C. Jail. Several of the course offerings, including Harbert’s, were “inside-out” courses made up of both inmates and Georgetown undergraduates. The class was called “Music in U.S. Prisons,” a college-level course taught by Ben Harbert, a lanky, blue-eyed associate professor in Georgetown’s music department. Harbert put the course together for the inaugural semester of the university’s&nbsp;<a href="https://prisonsandjustice.georgetown.edu/" target="_blank">Prison Scholars Program</a>.</p></div></div></div></div></div></div></div></div></section><section class="u-clearfix u-image u-section-7" id="sec-0456"><div class="u-clearfix u-sheet u-sheet-1"><div class="u-container-style u-expanded-width u-group u-group-1"><div class="u-container-layout"><h1 class="u-align-center u-text u-text-1">Welcome!</h1><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 41.999 41.999" style="undefined"><use xlink:href="#svg-4b70"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-4b70" x="0px" y="0px" viewBox="0 0 41.999 41.999" style="enable-background:new 0 0 41.999 41.999;" xml:space="preserve" class="u-svg-content">
+<path d="M36.068,20.176l-29-20C6.761-0.035,6.363-0.057,6.035,0.114C5.706,0.287,5.5,0.627,5.5,0.999v40  c0,0.372,0.206,0.713,0.535,0.886c0.146,0.076,0.306,0.114,0.465,0.114c0.199,0,0.397-0.06,0.568-0.177l29-20  c0.271-0.187,0.432-0.494,0.432-0.823S36.338,20.363,36.068,20.176z"></path>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg></span><p class="u-align-center u-text u-text-2">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p><div class="u-border-19 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div></div></div><img src="//images01.nicepage.com/51/9e/519e39fa3bc45f03ca3794d6722fb637.png" alt="" class="u-image u-image-default u-image-1" data-image-width="168" data-image-height="355"></div></section>
+<section class="u-backlink u-clearfix u-grey-80">
+        <a class="u-link" href="https://nicepage.com/website-templates" target="_blank"><span>Template</span></a>
+        <p class="u-text"><span>created with</span></p>
+        <a class="u-link" href="https://nicepage.com/website-builder" target="_blank"><span>Nicepage</span></a>.
+    </section></body></html>

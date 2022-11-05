@@ -20,5 +20,6 @@ from WebAppApp import views as webViews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', webViews.home)
+    path('', webViews.home),
+    path('browse/', webViews.browse, name='browse')
 ]
