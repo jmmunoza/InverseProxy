@@ -62,7 +62,7 @@ void receiveRequest(SOCKET client, char *petition){
 					sendResponse(client, server_reply);
 				}
 			}
-			closesocket(serverSocket);
+			
 		}
 	} else {
 		// Response is in cache
@@ -73,6 +73,7 @@ void receiveRequest(SOCKET client, char *petition){
 		appendLog(responseInCache);
 	}
 	
+	closesocket(serverSocket);
 	checkCacheTimeout();
 	serverInUse += 1;
 }
